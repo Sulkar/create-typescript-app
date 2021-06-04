@@ -7,7 +7,7 @@ Creates a simple web application with TypeScript and Bootstrap.
 - [Scss documentation](https://sass-lang.com/documentation/syntax)
 
 ## Demo:
-
+[create-typescript-app](https://sulkar.github.io/create-typescript-app/)
 
 ## Usage:
 - clone repository: https://github.com/Sulkar/create-typescript-app.git
