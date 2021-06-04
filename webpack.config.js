@@ -25,6 +25,10 @@ module.exports = {
     }),
   ],
 
+  resolve: { //for TypeScript imports
+    extensions: ['.ts', '...']
+  },
+  
   module: {
     rules: [
       {
