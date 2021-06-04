@@ -10,25 +10,58 @@
 
 <body>
 
+  <!-- Responsive Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="./">Home</a>
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="https://github.com/Sulkar/create-typescript-app">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
   <div class="container">
 
+    <!-- Info -->
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-md-12">
+        <h1>Create TypeScript App</h1>
+        <p>Creates a simple web application with TypeScript and Bootstrap.</p>
+        <ul>
+          <li><a href="https://www.typescriptlang.org/docs/handbook/intro.html" target="_blank">TypeScript documentation</a></li>
+          <li><a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank">Bootstrap documentation</a></li>
+          <li><a href="https://sass-lang.com/documentation/syntax" target="_blank">Scss documentation</a></li>          
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bootstrap Grid -->
+    <div class="row">
+      <div class="col-md-4">
         <h3>Column 1</h3>
         <p>Lorem ipsum dolor..</p>
       </div>
-      <div class="col-sm-4">
+      <div class="col-md-4">
         <h3>Column 2</h3>
         <p>Lorem ipsum dolor..</p>
       </div>
-      <div class="col-sm-4">
+      <div class="col-md-4">
         <h3>Column 3</h3>
         <p>Lorem ipsum dolor..</p>
       </div>
 
+      <!-- Custom App Container -->
       <div class="row">
-        <div class="col-sm-12">
-          <div id="app">            
+        <div class="col-md-12">
+          <div id="app">
           </div>
         </div>
 
