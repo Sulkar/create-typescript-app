@@ -1,6 +1,7 @@
 
-import "bulma";
-import "./style/myStyle.sass";
+
+import "./style/myStyle.scss";
+import "bootstrap";
 
 //start
 const app = document.getElementById("app");
@@ -13,9 +14,9 @@ button.textContent = "Drück mich!";
 button.className = "button is-primary";
 
 const a = document.createElement("a");
-a.href = "https://bulma.io/documentation/overview/modifiers/";
+a.href = "https://getbootstrap.com/";
 a.target = "_blank";
-a.textContent = "bulma CSS Buttons";
+a.textContent = "Bootstrap 5";
 
 app?.append(p);
 app?.append(button);
